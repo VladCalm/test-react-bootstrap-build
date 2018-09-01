@@ -1,0 +1,36 @@
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.search {
+    font-size: 14px;
+    padding-left: 10px;
+    width: 20%;
+}
+
+.filter {
+    margin-bottom: 0;
+}
+
+.filter input {
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .search-bar {
+        flex-direction: column;
+    }
+    .search {
+        height: 30px;
+        font-size: 10px;
+        width: 50%;
+        margin-left: 40px;
+    }
+}

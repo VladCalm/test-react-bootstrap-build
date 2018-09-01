@@ -1,0 +1,40 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tasks-nav {
+    margin-top: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.task-topic {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: normal;
+}
+
+.table {
+    margin-left: 30px;
+    width:95%;
+}
+
+.table th, tr{
+    border-top: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.table th {
+    padding-left: 0;
+}
+
+.table-body td {
+    padding-left: 0;
+}
+
