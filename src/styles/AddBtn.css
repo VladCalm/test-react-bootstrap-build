@@ -1,0 +1,22 @@
+.add-btn {
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 92%;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: 0;
+    background-color: #ff6633;
+    box-shadow:  3px 12px 10px rgba(0,0,0,0.2);
+    font-size: 2.0em;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+    .add-btn {
+        top: 50%;
+        left: 80%;
+    }
+
+}

@@ -12,10 +12,16 @@
     font-size: 14px;
     padding-left: 10px;
     width: 20%;
+    opacity: 0.5;
+}
+
+.filter-board {
+    margin-right: 40px;
 }
 
 .filter {
     margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .filter input {

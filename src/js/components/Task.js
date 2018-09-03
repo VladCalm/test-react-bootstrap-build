@@ -1,12 +1,11 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
 export const Task = () => (
     <tr>
-        <td>1234</td>
-        <td>dsada</td>
-        <td>dsasda</td>
-        <td>dsasda</td>
-        <td>dsasda</td>
+        <td>{this.props.id}</td>
+        <td>{this.props.location}</td>
+        <td>{this.props.subject}</td>
+        <td>{this.props.deadline}</td>
+        <td>{this.props.sum}</td>
     </tr>
 
 )

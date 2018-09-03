@@ -1,17 +1,18 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const TasksNav = ({ match }) => (
+
     <div>
         <h3 className='task-topic'>Задания</h3>
         <div className='tasks-nav'>
             <ul className="nav">
                 <li className="nav-item">
-                    <Link to={`${match.url}/new`} className="nav-link">Новые<span className="badge badge-light">1</span></Link>
+                    <Link to={`${match.url}/new`} className="nav-link" >Новые<span className="badge badge-light">1</span></Link>
                 </li>
                 <li className="nav-item">
-                    <Link to={`${match.url}/in_work`} className="nav-link">В работе<span className="badge badge-light">1</span></Link>
+                    <Link to={`${match.url}/in_work`} className="nav-link">В работе<span className="badge badge-light new">1</span></Link>
                 </li>
                 <li className="nav-item">
                     <Link to={`${match.url}/considering`} className="nav-link">На рассмотрении<span className="badge badge-light">1</span></Link>

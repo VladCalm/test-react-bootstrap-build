@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import { UserBoard} from "./UserBoard";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import icon2 from '../../assets/ic-help-outline-24-px-copy-3.png';
+import icon1 from '../../assets/ic-notifications-black-24-px.png';
 
 
 export const Header = () => (
@@ -26,10 +29,10 @@ export const Header = () => (
                     <a className="nav-link" href="#">Баланс</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link"><img src='../../assets/ic-help-outline-24-px-copy-3@2x.png'  alt='icon' /></a>
+                    <a className="nav-link" href='#'><img src={icon1}  alt='icon' /></a>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a className="nav-link dropdown-toggle user" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                        Никита Ласточкин
                     </a>
@@ -40,7 +43,7 @@ export const Header = () => (
                     </div>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link"><img src='../../assets/ic-notifications-black-24-px@2x.png' alt='icon' /></a>
+                    <a className="nav-link" href='#'><img src={icon2} alt='icon' /></a>
                 </li>
             </ul>
         </nav>

@@ -1,8 +1,22 @@
+
+@font-face {
+    font-family: PTSans-Regular;
+    src: url("../assets/fonts/PT_Sans-Web-Regular.ttf");
+}
+
+@font-face {
+    font-family: PTSans-Bold;
+    src: url("../assets/fonts/PT_Sans-Web-Bold.ttf")
+}
+
 html {
+    position: relative;
+    height: 100%;
     width: 100%;
 }
 
 body {
+    font-family: PTSans-Regular;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -36,5 +50,9 @@ body {
 
 .table-body td {
     padding-left: 0;
+}
+
+.active {
+    border-bottom: 1px solid #ff6633;
 }
 

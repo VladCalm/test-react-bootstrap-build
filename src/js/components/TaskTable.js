@@ -1,23 +1,36 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import { Task} from "./Task";
+import { Task } from "./Task";
+import { tasks } from "../tasks";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export const TaskTable = () => (
-    <table className="table">
-        <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Город</th>
-            <th scope="col">Название</th>
-            <th scope="col">Выполнить до</th>
-            <th scope="col">Сумма</th>
-        </tr>
-        </thead>
-        <tbody className="table-body">
-            <Task />
-            <Task />
-        </tbody>
+export class TaskTable extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            tasks: tasks
+
+        }
+        console.log(this.state)
+    }
+
+    render() {
+        return (
+            <table className="table">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Город</th>
+                    <th scope="col">Название</th>
+                    <th scope="col">Выполнить до</th>
+                    <th scope="col">Сумма</th>
+                </tr>
+                </thead>
+                <tbody className="table-body">
+                </tbody>
 
 
-    </table>
-)
+            </table>
+        )
+    }
+}
+
