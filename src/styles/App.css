@@ -42,10 +42,13 @@ body {
     border-top: 0;
     font-size: 12px;
     font-weight: normal;
+
 }
 
 .table th {
     padding-left: 0;
+    padding-right: 100px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .table-body td {
@@ -54,4 +57,14 @@ body {
 
 .icon-help {
     margin-right: 20px;
+}
+
+.cash {
+    font-family: PTSans-Bold;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.task {
+    font-size: 16px;
 }

@@ -26,7 +26,7 @@ export const Header = () => (
             </ul>
             <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Баланс</a>
+                    <a className="nav-link" href="#">Баланс<span className="cash">218 982, 90</span></a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href='#'><img className="icon-ntf" src={icon1}  alt='icon' /></a>

@@ -13,6 +13,7 @@
     padding-left: 10px;
     width: 20%;
     opacity: 0.5;
+    height: 30px;
 }
 
 .filter-board {
@@ -21,7 +22,8 @@
 
 .filter {
     margin-bottom: 0;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0,0,0,0.5);
+    font-size: 0.9em;
 }
 
 .filter input {

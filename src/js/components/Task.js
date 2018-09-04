@@ -1,11 +1,11 @@
 import React from 'react';
-export const Task = () => (
-    <tr>
-        <td>{this.props.id}</td>
-        <td>{this.props.location}</td>
-        <td>{this.props.subject}</td>
-        <td>{this.props.deadline}</td>
-        <td>{this.props.sum}</td>
+export const Task = ({ task }) => (
+    <tr className='task' key={task.id}>
+        <td>{task.id}</td>
+        <td>{task.location}</td>
+        <td>{task.subject}</td>
+        <td>{task.deadline}</td>
+        <td>{task.sum}</td>
     </tr>
 
 )

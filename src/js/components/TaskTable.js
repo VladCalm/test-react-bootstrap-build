@@ -10,7 +10,12 @@ export class TaskTable extends React.Component {
             tasks: tasks
 
         }
-        console.log(this.state)
+
+    }
+    renderTask(task) {
+        return (
+            <Task task={task} />
+        );
     }
 
     render() {
@@ -26,6 +31,7 @@ export class TaskTable extends React.Component {
                 </tr>
                 </thead>
                 <tbody className="table-body">
+                {this.state.tasks.map(this.renderTask)}
                 </tbody>
 
 
