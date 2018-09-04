@@ -29,14 +29,21 @@
     margin-right: 5px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .search-bar {
+        flex-direction: column;
+    }
+    .filter-board {
+        display: flex;
         flex-direction: column;
     }
     .search {
         height: 30px;
         font-size: 10px;
         width: 50%;
+        margin-left: 40px;
+    }
+    .dropdown {
         margin-left: 40px;
     }
 }

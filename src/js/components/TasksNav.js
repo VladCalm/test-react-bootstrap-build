@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const TasksNav = ({ match }) => (
@@ -9,22 +9,22 @@ export const TasksNav = ({ match }) => (
         <div className='tasks-nav'>
             <ul className="nav">
                 <li className="nav-item">
-                    <Link to={`${match.url}/new`} className="nav-link" >Новые<span className="badge badge-light">1</span></Link>
+                    <NavLink to={`${match.url}/new`} activeClassName="active" className="nav-link">Новые<span className="badge badge-light">1</span></NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to={`${match.url}/in_work`} className="nav-link">В работе<span className="badge badge-light new">1</span></Link>
+                    <NavLink to={`${match.url}/in_work`} activeClassName="active" className="nav-link">В работе<span className="badge badge-light new">1</span></NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to={`${match.url}/considering`} className="nav-link">На рассмотрении<span className="badge badge-light">1</span></Link>
+                    <NavLink to={`${match.url}/considering`} activeClassName="active" className="nav-link">На рассмотрении<span className="badge badge-light">1</span></NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to={`${match.url}/done`} className="nav-link">Выполнены<span className="badge badge-light">187</span></Link>
+                    <NavLink to={`${match.url}/done`} activeClassName="active" className="nav-link">Выполнены<span className="badge badge-light">187</span></NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to={`${match.url}/canceled`} className="nav-link">Отменены<span className="badge badge-light">4</span></Link>
+                    <NavLink to={`${match.url}/canceled`} activeClassName="active" className="nav-link">Отменены<span className="badge badge-light">4</span></NavLink>
                 </li>
                 <li className="nav-item">
-                    <Link to={`${match.url}/scratches`} className="nav-link">Черновики<span className="badge badge-light">7</span></Link>
+                    <NavLink to={`${match.url}/scratches`} activeClassName="active" className="nav-link">Черновики<span className="badge badge-light">7</span></NavLink>
                 </li>
             </ul>
         </div>

@@ -8,6 +8,7 @@
     padding-left: 6px;
     padding-top: 3px;
     padding-bottom: 3px;
+    font-size: 10px;
 }
 
 .navbar {
@@ -37,10 +38,18 @@
 .dropdown a {
     text-decoration: none;
     color: #222222;
-
 }
 
 .new {
     background-color: #ff6633;
     color: #ffffff;
+    border: 0;
+}
+
+.active {
+    border-bottom: 1px solid #ff6633;
+}
+
+.active-head {
+    color: #ffffff!important;
 }

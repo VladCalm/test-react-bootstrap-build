@@ -20,3 +20,11 @@
     }
 
 }
+
+@media screen and (width: 1024px){
+    .add-btn {
+        top: 180px;
+        left: 950px;
+    }
+
+}
