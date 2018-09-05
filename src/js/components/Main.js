@@ -14,9 +14,8 @@ export default class Main extends Component {
                 <Route exact path='/tasks/new' component={NewTasks} />
                 <Route path='/tasks/' component={AddBtn} />
             </main>
-        )
+        );
     }
-
 }
 
 

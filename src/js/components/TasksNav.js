@@ -29,5 +29,4 @@ export const TasksNav = ({ match }) => (
             </ul>
         </div>
     </div>
-
 )

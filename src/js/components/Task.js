@@ -7,5 +7,4 @@ export const Task = ({ task }) => (
         <td>{task.deadline}</td>
         <td>{task.sum}</td>
     </tr>
-
 )
