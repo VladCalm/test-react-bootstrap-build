@@ -16,6 +16,14 @@
     height: 30px;
 }
 
+.search:hover {
+    opacity: 1;
+}
+
+.search:focus {
+    opacity: 1;
+}
+
 .filter-board {
     margin-right: 40px;
 }
@@ -24,6 +32,10 @@
     margin-bottom: 0;
     color: rgba(0,0,0,0.5);
     font-size: 0.9em;
+}
+
+.filter:hover {
+    color: #222222;
 }
 
 .filter input {

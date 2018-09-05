@@ -32,7 +32,7 @@ export const tasks = [
     {
         id: 12567,
         location: "Самара",
-        subject: "Подключение провода от клеммной коробки пожарной сигнализации к расцепителю, проверить работоспособность",
+        subject: "Car repair",
         deadline: "1 сентября",
         sum: "3 400 Р",
         night: false,

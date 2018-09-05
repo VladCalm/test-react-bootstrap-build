@@ -1,4 +1,5 @@
 import React from 'react';
+
 export const Task = ({ task }) => (
     <tr className='task' key={task.id}>
         <td>{task.id}</td>

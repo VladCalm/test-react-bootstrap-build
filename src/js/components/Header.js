@@ -11,24 +11,24 @@ export const Header = () => (
             <Link to='/' className="navbar-brand" >taskon</Link>
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <NavLink to='/tasks/new' className="nav-link" activeClassName="active-head">Задания </NavLink>
+                    <NavLink to='/tasks/new' className="nav-link header-link" activeClassName="active-head">Задания </NavLink>
                 </li>
                 <li className="nav-item pl-20">
-                    <NavLink to='/finance' className="nav-link" activeClassName="active-head">Финансы</NavLink>
+                    <NavLink to='/finance' className="nav-link header-link" activeClassName="active-head">Финансы</NavLink>
                 </li>
                 <li className="nav-item pl-20">
-                    <NavLink to='/about' className="nav-link" activeClassName="active-head">Компания</NavLink>
+                    <NavLink to='/about' className="nav-link header-link" activeClassName="active-head">Компания</NavLink>
                 </li>
                 <li className="nav-item pl-20">
-                    <NavLink to='/statistics' className="nav-link" activeClassName="active-head">Статистика</NavLink>
+                    <NavLink to='/statistics' className="nav-link header-link" activeClassName="active-head">Статистика</NavLink>
                 </li>
             </ul>
             <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Баланс<span className="cash">218 982, 90</span></a>
+                    <a className="nav-link header-link" href="#">Баланс<span className="cash">218 982, 90</span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href='#'><img className="icon-ntf" src={icon1}  alt='icon' /></a>
+                    <a className="nav-link header-link" href='#'><img className="icon-ntf" src={icon1}  alt='icon' /></a>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle user" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
