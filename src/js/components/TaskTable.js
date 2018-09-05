@@ -1,21 +1,17 @@
-import React from 'react';
-import { Task } from "./Task";
-import { tasks } from "../tasks";
+import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export class TaskTable extends React.Component {
+import { Task } from './Task';
+import { tasks } from '../tasks';
+
+export default class TaskTable extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            tasks: tasks
-
-        }
-
+        this.state = { tasks: tasks };
     }
+
     renderTask(task) {
-        return (
-            <Task task={task} />
-        );
+        return <Task task={task} />
     }
 
     render() {
@@ -33,8 +29,6 @@ export class TaskTable extends React.Component {
                 <tbody className="table-body">
                 {this.state.tasks.map(this.renderTask)}
                 </tbody>
-
-
             </table>
         )
     }

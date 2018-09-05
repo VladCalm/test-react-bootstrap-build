@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link, NavLink, Route } from 'react-router-dom';
-import { UserBoard} from "./UserBoard";
+import { Link, NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import icon2 from '../../assets/ic-help-outline-24-px-copy-3.png';
 import icon1 from '../../assets/ic-notifications-black-24-px.png';
-
 
 export const Header = () => (
     <header>

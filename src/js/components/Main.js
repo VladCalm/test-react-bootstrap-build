@@ -1,26 +1,12 @@
-import React from 'react';
-import {Link, Route, Switch} from 'react-router-dom';
-import { NewTasks} from "./NewTasks";
-import {TasksNav} from "./TasksNav";
-import { TableHeader} from "./TaskTable";
+import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+
+import { NewTasks } from './NewTasks';
+import { TasksNav } from './TasksNav';
 import '../../styles/Main.css';
-import {AddBtn} from "./AddBtn";
+import { AddBtn } from './AddBtn';
 
-
-export class Main extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isActive: false
-        };
-        this.toggleActive = this.toggleActive.bind(this);
-
-    }
-
-    toggleActive(e) {
-
-    }
-
+export default class Main extends Component {
     render() {
         return (
             <main className='main-container'>

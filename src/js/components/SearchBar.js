@@ -1,7 +1,8 @@
 import React from 'react';
-import '../../styles/SearchBar.css'
-import {UserBoard} from "./UserBoard";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import '../../styles/SearchBar.css'
+import { UserBoard } from './UserBoard';
 
 export const SearchBar = () => (
     <div className='search-bar'>

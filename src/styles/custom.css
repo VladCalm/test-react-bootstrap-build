@@ -53,3 +53,8 @@
 .active-head {
     color: #ffffff!important;
 }
+
+.dropdown {
+    font-size: 0.9em;
+    padding-top: 3px;
+}
