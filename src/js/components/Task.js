@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Task = ({ task }) => (
-    <tr className='task' key={task.id}>
+    <tr className='task'>
         <td>{task.id}</td>
         <td>{task.location}</td>
         <td>{task.subject}</td>

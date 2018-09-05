@@ -14,7 +14,7 @@ export class NewTasks extends Component {
     }
 
     renderTask(task) {
-        return <Task task={task} />
+        return <Task task={task} key={task.id}/>
     }
 
     handleSearch(query) {
