@@ -32,15 +32,15 @@ export default class NewTasks extends Component {
     handleFilter (name, checked) {
         if (name === 'personal' && checked === true) {
             const filteredTasks = this.state.tasks.filter( el => el.personal === true );
-            return this.setState({ tasks : filteredTasks})
+            return this.setState({ tasks: filteredTasks });
         } if (name === 'night' && checked === true) {
             const filteredTasks = this.state.tasks.filter( el => el.night === true );
-            return this.setState({ tasks : filteredTasks})
+            return this.setState({ tasks: filteredTasks });
         } if (name === 'urgent' && checked === true) {
             const filteredTasks = this.state.tasks.filter( el => el.urgent === true );
-            return this.setState({ tasks : filteredTasks})
+            return this.setState({ tasks: filteredTasks });
         } else {
-            return this.setState({ tasks: tasks })
+            return this.setState({ tasks: tasks });
         }
     }
 

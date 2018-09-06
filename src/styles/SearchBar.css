@@ -43,6 +43,9 @@
     margin-right: 5px;
 }
 
+.active-filter{
+    color: #222222!important;
+}
 
 @media screen and (max-width: 1024px){
     .search-bar {
@@ -62,3 +65,4 @@
         margin-left: 40px;
     }
 }
+

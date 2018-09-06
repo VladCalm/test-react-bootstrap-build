@@ -35,8 +35,8 @@ export const tasks = [
         subject: "Ремонт принтера",
         deadline: "7 сентября",
         sum: "1 125 Р",
-        night: false,
+        night: true,
         urgent: true,
-        personal: false
+        personal: true
     },
 ]
