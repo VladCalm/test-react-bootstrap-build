@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
-import { NewTasks } from './NewTasks';
+import NewTasks from './NewTasks';
 import { TasksNav } from './TasksNav';
 import '../../styles/Main.css';
 import { AddBtn } from './AddBtn';

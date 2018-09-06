@@ -5,12 +5,12 @@ import { TableHead } from './TableHead';
 import { tasks } from '../tasks';
 import { Task } from './Task';
 
-export class NewTasks extends Component {
+export default class NewTasks extends Component {
     constructor(props) {
         super(props);
         this.state = { tasks: tasks };
         this.handleSearch = this.handleSearch.bind(this);
-
+        this.renderTask = this.renderTask.bind(this);
     }
 
     renderTask(task) {
@@ -23,8 +23,7 @@ export class NewTasks extends Component {
             return searchValue.indexOf(query) !== -1;
         });
 
-        this.setState({ tasks: newTasks }, console.log(this.state.tasks));
-
+        query ? this.setState({ tasks: newTasks }) : this.setState({ tasks: tasks });
     }
 
     render() {
